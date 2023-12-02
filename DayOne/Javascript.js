@@ -1,4 +1,4 @@
-const fs = require("fs").promises; // Beachte die Verwendung von fs.promises für Promisified-Methoden
+const fs = require("fs").promises;
 
 // Part 1
 
@@ -149,12 +149,9 @@ async function dateiLesenZwei() {
     }
 
     console.log(result);
-
-    // Hier kannst du weitere Operationen mit den Daten durchführen
   } catch (err) {
     console.error(err);
   }
 }
 
-// Aufruf der Funktion
 dateiLesenZwei();
